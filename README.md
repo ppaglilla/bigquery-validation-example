@@ -8,14 +8,14 @@ This project is an example-driven guide, where each example explains some aspect
 of the proposed solution using ZetaSQL. There are two sections:
 
 1. Syntactic validation
-   * [Basic Parsing Example](src/main/java/com/google/bigquery/validation/syntax/A_BasicParserExample.java)
-   * [Finding Syntax Errors](src/main/java/com/google/bigquery/validation/syntax/B_FindingSyntaxErrors.java)
-   * [Parsing Multi-Statement Queries](src/main/java/com/google/bigquery/validation/syntax/C_ParsingMultiStatementQueries.java)
-   * [Processing the parse tree](src/main/java/com/google/bigquery/validation/syntax/D_UsingTheParseTreeVisitor.java)
+   * [Basic Parsing Example](src/main/java/org/example/bigquery/validation/syntax/A_BasicParserExample.java)
+   * [Finding Syntax Errors](src/main/java/org/example/bigquery/validation/syntax/B_FindingSyntaxErrors.java)
+   * [Parsing Multi-Statement Queries](src/main/java/org/example/bigquery/validation/syntax/C_ParsingMultiStatementQueries.java)
+   * [Processing the parse tree](src/main/java/org/example/bigquery/validation/syntax/D_UsingTheParseTreeVisitor.java)
 2. Semantic validation
-   * [Semantic Validation Basics](src/main/java/com/google/bigquery/validation/semantic/E_SemanticValidationBasics.java)
-   * [Building a Catalog for BigQuery](src/main/java/com/google/bigquery/validation/semantic/F_BuildingACatalogForBigQuery.java)
-   * [Validating Queries that include DDL](src/main/java/com/google/bigquery/validation/semantic/G_ValidatingDdl.java)
+   * [Semantic Validation Basics](src/main/java/org/example/bigquery/validation/semantic/E_SemanticValidationBasics.java)
+   * [Building a Catalog for BigQuery](src/main/java/org/example/bigquery/validation/semantic/F_BuildingACatalogForBigQuery.java)
+   * [Validating Queries that include DDL](src/main/java/org/example/bigquery/validation/semantic/G_ValidatingDdl.java)
 
 ## Using this project
 
