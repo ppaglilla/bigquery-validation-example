@@ -17,27 +17,7 @@ of the proposed solution using ZetaSQL. There are two sections:
    * [Building a Catalog for BigQuery](src/main/java/org/example/bigquery/validation/semantic/F_BuildingACatalogForBigQuery.java)
    * [Validating Queries that include DDL](src/main/java/org/example/bigquery/validation/semantic/G_ValidatingDdl.java)
 
-## Using this project
-
-### Setup
-
-The project depends on the [ZetaSQL Toolkit](https://github.com/GoogleCloudPlatform/professional-services/tree/main/tools/zetasql-helper/zetasql-toolkit-core)
-which is not currently hosted on maven central.
-
-The easiest way to get set up running the examples, is to clone the zetasql-toolkit
-repository and install it locally.
-
-``` bash
-git clone https://github.com/GoogleCloudPlatform/professional-services.git
-pushd professional-services/tools/zetasql-helper/zetasql-toolkit-core
-mvn -DskipTests install
-popd
-```
-
-Alternatively, you can build and host the ZetaSQL Toolkit in your own private
-repository. See how to push it to [Artifact Registry](https://github.com/GoogleCloudPlatform/professional-services/tree/main/tools/zetasql-helper/zetasql-toolkit-core#pushing-to-artifact-registry).
-
-### Navigating the examples
+## Navigating the examples
 
 We recommend going through the examples in the provided order and reading them, 
 together with the included javadocs and comments explaining them. They will
