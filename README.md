@@ -32,13 +32,13 @@ See [Jib's quickstart](https://cloud.google.com/java/getting-started/jib).
 
 ``` bash
 mvn compile jib:dockerBuild \
-  -Dcontainer.mainClass=com.google.bigquery.validation.syntax.A_BasicParserExample
+  -Dcontainer.mainClass=org.example.bigquery.validation.syntax.A_BasicParserExample
 ```
 
 ### Build and push to a container registry
 
 ``` bash
 mvn compile jib:build \
-  -Dcontainer.mainClass=com.google.bigquery.validation.syntax.A_BasicParserExample \
+  -Dcontainer.mainClass=org.example.bigquery.validation.syntax.A_BasicParserExample \
   -Dimage=gcr.io/...
 ```
